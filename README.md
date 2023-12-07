@@ -9,3 +9,8 @@ chmod +x *
 pip3 install -r requirements.txt
 python3 ascii.py
 ```
+<br>
+<img src="https://raw.githubusercontent.com/issamiso/ascii/main/screenshots/image1.png" />
+<br>
+<img src="https://raw.githubusercontent.com/issamiso/ascii/main/screenshots/image2.png" />
+
