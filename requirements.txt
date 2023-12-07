@@ -1,0 +1,4 @@
+requests
+user-agent
+bs4
+rgbprint
