@@ -18,11 +18,11 @@ def Session():
     soup=bs4.BeautifulSoup(req.text,"html.parser").find("input",{"name":"csrfmiddlewaretoken"}).get("value")
     return req.headers["Set-Cookie"],soup,agent
 def banner():
-    banner="""
-   _____      _________ _________   .___  .___
-  /  _  \    /   _____/ \_   ___ \  |   | |   |             /  /_\  \   \_____  \  /    \  \/  |   | |   |
-/    |    \  /        \ \     \____ |   | |   |            \____|__  / /_______  /  \______  / |___| |___|
-        \/          \/          \/
+    banner="""   
+   _____      _________ _________   .___  .___   
+  /  _  \    /   _____/ \_   ___ \  |   | |   |             /  /_\  \   \_____  \  /    \  \/  |   | |   |    
+/    |    \  /        \ \     \____ |   | |   |            \____|__  / /_______  /  \______  / |___| |___|    
+        \/          \/          \/   
               Code By issam iso 
     """
     gradient_print(banner,start_color="blue",end_color="red")
